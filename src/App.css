@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.my-element::-webkit-scrollbar-thumb {
+    background-color: #a0aec0; /* Set the color of the scrollbar thumb */
+    border-radius: 0.25rem; /* Set the border radius of the scrollbar thumb */
+  }
